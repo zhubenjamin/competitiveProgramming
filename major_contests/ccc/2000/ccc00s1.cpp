@@ -1,4 +1,5 @@
 // Extremely inefficient solution to https://dmoj.ca/problem/ccc00s1
+// WAs on last testcase
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -41,7 +42,8 @@ int main() {
         }
         p += 1;
         qleft -= 1;
+        cout << "qleft = " << qleft << "; m1left = " << m1left << "; m2left = " << m2left << "; m3left = " << m3left << endl;
     }
 
-    cout << "Martha plays " << p << " times before going broke." << endl;
+    cout << "Martha plays " << p-1 << " times before going broke." << endl;
 }
