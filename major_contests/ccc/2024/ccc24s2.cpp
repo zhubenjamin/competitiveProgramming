@@ -2,9 +2,8 @@
 using namespace std;
 
 int main() {
-    int T;
+    int T, N;
     cin >> T;
-    int N;
     cin >> N;
 
     unordered_map<char, bool> letters;
